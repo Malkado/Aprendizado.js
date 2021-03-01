@@ -1,5 +1,6 @@
 const express = require('express');
 require('dotenv').config();
+require('./model/database');
 const app = express();
 const router = require('./routes/index');
 //definição da porta
